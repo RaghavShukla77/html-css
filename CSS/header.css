@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 45px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left-section {
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    height: 25px; 
+    margin-left: 13px;
+    margin-bottom: 2px;
+}
+
+.logo {
+    cursor: pointer;
+    height: 65px;
+    margin-left: 10px;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+    background-color: black;
+    height: 32px;
+    flex: 1;
+
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.search-bar::placeholder {
+    color: grey;
+    font-family:Arial;
+}
+
+.search-button {
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+
+    border: none; 
+    background-color: rgb(50,50,50);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline: none;
+    
+}
+
+.search-icon {
+    height: 15px;
+}
+
+.voice-button {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(50,50,50);
+    cursor: pointer;
+
+    border: none;
+    margin-left: 10px;
+    border-radius: 50%;
+    
+}
+
+.voice-icon {
+    height: 17px;
+    margin-top: 2px;
+}
+.right-section {
+  width: 180px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.create {
+    background-color: rgb(50,50,50);
+    color: white;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+
+    padding-inline: 10px;
+    cursor: pointer;
+    border: none;
+    height: 28px;
+    border-radius: 20px;
+}
+.notification {
+    height: 20px;
+}
+
+.notification-button {
+    border: none;
+    background-color: transparent;
+    margin-left: 12px;
+}
+
+.account {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin-left: 20px;
+    border: none;
+}
